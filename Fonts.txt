@@ -1,10 +1,6 @@
-Roboto
-	900n
+Manrope
 	700n
-	500n
+Roboto
 	400n
-	300n
-Work Sans
-	600n
-	400n
+
 	
