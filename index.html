@@ -29,6 +29,7 @@
               data-bs-target="#flush-collapseOne"
               aria-expanded="false"
               aria-controls="flush-collapseOne"
+              onclick="build()"
             >
               <div>
                 <ul class="button-block">
@@ -37,7 +38,7 @@
                 </ul>
               </div>
             </button>
-            <div class="statusLine200"></div>
+            <div id="buildTask" class="statusLine200"></div>
           </h2>
           <!-- <div class="statusLine300"></div> -->
           <div
@@ -66,7 +67,7 @@
               data-bs-target="#flush-collapseTwo"
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
-              onclick="kazkas()"
+              onclick="submit()"
             >
               <div>
                 <ul class="button-block">
@@ -75,7 +76,7 @@
                 </ul>
               </div>
             </button>
-            <div id="myDIV" class="statusLine200"></div>
+            <div id="submitTask" class="statusLine200"></div>
           </h2>
           <div
             id="flush-collapseTwo"
@@ -87,7 +88,8 @@
               <ul>
                 <li>Open email client</li>
                 <li>
-                  Sent link with information to <a href="#">careers@cornercasetech.com</a>
+                  Sent link with information to
+                  <a href="#">careers@cornercasetech.com</a>
                 </li>
               </ul>
             </div>
@@ -104,6 +106,7 @@
               data-bs-target="#flush-collapseThree"
               aria-expanded="false"
               aria-controls="flush-collapseThree"
+              onclick="participate()"
             >
               <div>
                 <ul class="button-block">
@@ -112,7 +115,7 @@
                 </ul>
               </div>
             </button>
-            <div class="statusLine200"></div>
+            <div id="participate" class="statusLine200"></div>
           </h2>
           <div
             id="flush-collapseThree"
@@ -139,6 +142,7 @@
               data-bs-target="#flush-collapseFour"
               aria-expanded="false"
               aria-controls="flush-collapseFour"
+              onclick="receive()"
             >
               <div>
                 <ul class="button-block">
@@ -147,7 +151,7 @@
                 </ul>
               </div>
             </button>
-            <div class="statusLine200"></div>
+            <div id="receive" class="statusLine200"></div>
           </h2>
           <div
             id="flush-collapseFour"
@@ -167,6 +171,6 @@
     </div>
 
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
