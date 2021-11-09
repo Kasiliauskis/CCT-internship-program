@@ -83,14 +83,9 @@
   box-shadow: none;
 }
 
-.statusLine200 {
+#myDIV {
   border: 2px solid #00adaa;
   width: 200px;
-}
-
-.statusLine200:hover {
-  border: 2px solid #00adaa;
-  width: 300px;
 }
 
 .accordion-body {
