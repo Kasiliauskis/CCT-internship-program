@@ -83,7 +83,10 @@
   box-shadow: none;
 }
 
-.statusLine200 {
+#buildTask,
+#submitTask,
+#participate,
+#receive {
   border: 2px solid #00adaa;
   width: 200px;
 }
