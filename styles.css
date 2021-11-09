@@ -83,7 +83,7 @@
   box-shadow: none;
 }
 
-#myDIV {
+.statusLine200 {
   border: 2px solid #00adaa;
   width: 200px;
 }
@@ -107,9 +107,6 @@
 .accordion-body li {
   margin-bottom: 20px;
   list-style-image: url(images/check.png);
-}
-
-.accordion-body li:hover {
 }
 
 .accordion-body a {
